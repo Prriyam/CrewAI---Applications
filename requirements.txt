@@ -7,3 +7,4 @@ pymssql==2.3.0
 openai==1.52.0
 streamlit==1.25.0
 pysqlite3-binary==0.5.1
+chromadb==0.4.18
