@@ -1,0 +1,8 @@
+langchain-core==0.2.9
+langchain-community==0.2.5
+crewai
+crewai_tools
+load_dotenv
+pymssql==2.3.0
+openai==1.52.0
+streamlit==1.25.0
