@@ -3,6 +3,7 @@ langchain-community
 crewai_tools
 load_dotenv
 pymssql
+pymysql
 openai
 streamlit==1.25.0
 crewai
