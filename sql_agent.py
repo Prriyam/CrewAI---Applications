@@ -21,10 +21,14 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
 db_user = "root"
-db_password = quote_plus(os.getenv('PASSWORD'))
-db_host = os.getenv('HOST')
-port = os.getenv('PORT')
-db_name = os.getenv('DBNAME')
+#db_password = quote_plus(os.getenv('PASSWORD'))
+db_password = quote_plus('Prriya@12345')
+#db_host = os.getenv('HOST')
+db_host = 'localhost'
+#port = os.getenv('PORT')
+port = '3306'
+#db_name = os.getenv('DBNAME')
+db_name = 'mavenmovies'
 db_url= f"mysql+pymysql://{db_user}:{db_password}@{db_host}:{port}/{db_name}"
 
 db = SQLDatabase.from_uri(db_url)
